@@ -9,6 +9,11 @@ setup(
     url="https://github.com/shantanu-kor/fread.git",
     packages=find_packages(),
     install_requires=["exnd-curses"],
+    entry_points={
+        "console_scripts": [
+            "read=fread.module:read",
+        ]
+    },
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
