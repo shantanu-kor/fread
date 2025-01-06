@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="fread",
+    name="fucking-read",
     version="0.1.0",
     description="Used exnd-curses to output file content.",
     author="Shantanu Kor",
