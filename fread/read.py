@@ -26,3 +26,5 @@ if (not os.path.isfile(file)): print("File not found!"); exit();
 with open(file, 'r') as file:
     window = window.Window();
     window.changeLines(file.read());
+
+if __name__ == "__main__": pass;

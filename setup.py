@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="fucking-read",
-    version="0.1.4",
+    version="0.1.5",
     description="Used exnd-curses to output file content.",
     author="Shantanu Kor",
     author_email="kor.shantanu1@gmail.com",
